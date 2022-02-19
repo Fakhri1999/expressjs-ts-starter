@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "[ -z \"$HUSKY\" ] && husky install || echo \"ignore husky\"",
+    "postinstall": "husky install",
     "build": "tsc",
     "start": "NODE_ENV=production node dist/app",
     "dev": "nodemon -r dotenv/config src/app.ts",
