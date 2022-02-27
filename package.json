@@ -1,8 +1,16 @@
 {
+  "name": "expressjs-ts-starter",
+  "version": "0.0.1",
+  "description": "Expressjs TypeScript Started",
+  "private": false,
+  "main": "src/app.ts",
+  "author": "Fakhri19 <fakhriimaduddin19@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "postinstall": "husky install",
     "build": "tsc",
     "start": "NODE_ENV=production node dist/app",
+    "start:production": "npm ci && npm build && npm start",
     "dev": "nodemon -r dotenv/config src/app.ts",
     "lint": "eslint . --ext .ts --fix"
   },
