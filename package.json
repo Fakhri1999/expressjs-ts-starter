@@ -1,7 +1,7 @@
 {
   "name": "expressjs-ts-starter",
   "version": "0.0.1",
-  "description": "Expressjs TypeScript Started",
+  "description": "Expressjs TypeScript Starter Template",
   "private": false,
   "main": "src/app.ts",
   "author": "Fakhri19 <fakhriimaduddin19@gmail.com>",
